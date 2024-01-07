@@ -1,0 +1,200 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@200&display=swap');
+ 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/back.png  ');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+}
+
+.logo > img {
+    width:  200px;
+}
+
+.regestration {
+    padding: 10px 70px;
+    margin: 0 auto;
+    width: 454px;
+    margin-top: 20px;
+    height: 580px;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.regestration > h1 {
+    margin-top: 55px;
+    color:white;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.text {
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    width: 100%;
+    height: 45px;
+}
+
+.input {
+    width: 100%;
+    height: 45px;
+    margin-top: 30px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.password {
+    padding: 10px;
+    outline: none;
+    border: none;
+    width: 90%;
+    height: 43px;
+}
+
+.eye {
+    border-radius: 0 5px 5px 0;
+    background-color: gray;
+    width: 20%;
+    height: 45px;
+    padding: 0px 11px;
+}
+
+.eye  > img {
+    width: 40px;
+    margin: 6px auto;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.sign {
+    border-radius: 5px;
+    margin-top: 40px;
+    height: 55px;
+    background-color:#E50914;
+    width: 100%;
+}
+
+.a > a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.a {
+    padding-top: 15px;
+    text-align: center;
+}
+
+.check {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.check > p {
+    font-size: 12px;
+    color:#6A6868;
+}
+
+.remember {
+    gap: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.remember > p {
+    font-weight: 900;
+    color: #6A6868;
+    font-size: 12px;
+}
+
+
+.text1 {
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.Netflix {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.Netflix > h1 {
+    font-size: 20px;
+    color: #6A6868;
+}
+
+.Netflix > h1 > span {
+    color: white;
+}
+
+.Netflix > p {
+    color: #6A6868;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 10px;
+    font-weight: 900;
+}
+
+.Netflix > P > span {
+    color: #0071EB;
+}
+
+footer {
+    margin-top: 120px;
+    width: 100%;
+    height: 320px;
+    background-color: rgba(0, 0, 0, 0.80);
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto
+}
+
+.box {
+    padding-top: 30px;
+    width: 400px;
+}
+
+.box > img {
+    margin-left: 30px;
+}
+
+
+.box > p {
+    font-size: 20px;
+    font-weight: 900;
+    margin: 30px;
+    color: #6A6868;
+}
+
